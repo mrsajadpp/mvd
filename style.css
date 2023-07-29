@@ -1,0 +1,174 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font: 1em sans-serif;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    background: #fff;
+    position: fixed;
+    top: 0px;
+    z-index: 999;
+}
+
+.header .header-left {
+    width: 500px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .header-left img {
+    width: 300px;
+}
+
+li {
+    list-style: none;
+}
+
+.header .header-right {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .header-right nav {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.header .header-right nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.header .header-right nav ul li {
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .header-right nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.header .header-right nav ul li a:hover {
+    color: #c8261b;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.container .carosal {
+    width: 100%;
+    height: 400px;
+    background: url('./mvd-fine-ml.jpg');
+    background-size: cover;
+}
+
+.container .news {
+    width: 99.75%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    border: #c8261b 2px solid;
+}
+
+.container .news .topnews {
+    width: 200px;
+    height: 100%;
+    background-color: #c8261b;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .news .content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.block-list {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.block-list .block-row {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.block-list .block-row .block {
+    width: 150px;
+    height: 150px;
+    background-color: #efa703;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    width: 100%;
+    height: 150px;
+    background-color: rgb(188, 187, 187);
+    display: flex;
+}
+
+.footer .copyright {
+    width: 400px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .social {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .social nav {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 100px;
+}
+
+.footer .social nav a{
+    text-decoration: none;
+    color: black;
+}
